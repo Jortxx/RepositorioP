@@ -1,0 +1,65 @@
+ehu@U030087 MINGW64 ~
+$ cd Desktop/
+
+ehu@U030087 MINGW64 ~/Desktop
+$ cd PRUEBAGIT/
+
+ehu@U030087 MINGW64 ~/Desktop/PRUEBAGIT
+$ git init
+Initialized empty Git repository in C:/Users/ehu/Desktop/PRUEBAGIT/.git/
+
+ehu@U030087 MINGW64 ~/Desktop/PRUEBAGIT (master)
+$ git add prueba.php
+
+ehu@U030087 MINGW64 ~/Desktop/PRUEBAGIT (master)
+$ ls
+prueba.php  prueba.txt
+
+ehu@U030087 MINGW64 ~/Desktop/PRUEBAGIT (master)
+$ git commit -m "Prueba.php"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ehu@U030087.(none)')
+
+ehu@U030087 MINGW64 ~/Desktop/PRUEBAGIT (master)
+$ git remote add origin https://github.com/Jortxx/RepositorioP.git
+
+ehu@U030087 MINGW64 ~/Desktop/PRUEBAGIT (master)
+$ git config --global user.email "jurgi.sarasola17@gmail.com"
+
+ehu@U030087 MINGW64 ~/Desktop/PRUEBAGIT (master)
+$ git config --global user.name "Jortxx"
+
+ehu@U030087 MINGW64 ~/Desktop/PRUEBAGIT (master)
+$
+
+ehu@U030087 MINGW64 ~/Desktop/PRUEBAGIT (master)
+$ git commit -m "Prueba.php"
+[master (root-commit) db2c1e6] Prueba.php
+ 1 file changed, 1 insertion(+)
+ create mode 100644 prueba.php
+
+ehu@U030087 MINGW64 ~/Desktop/PRUEBAGIT (master)
+$ git remote add origin https://github.com/Jortxx/RepositorioP.git
+fatal: remote origin already exists.
+
+ehu@U030087 MINGW64 ~/Desktop/PRUEBAGIT (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 236 bytes | 236.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Jortxx/RepositorioP.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+ehu@U030087 MINGW64 ~/Desktop/PRUEBAGIT (master)
+$
